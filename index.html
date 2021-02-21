@@ -1,0 +1,95 @@
+<html>
+<head>
+<link rel="stylesheet" href="style.css">    
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body onload="hello()" id="Mybody">
+<div class="container">
+<center>
+<section id="MyHeader">
+<center>
+<h1>My Blog</h1><br>
+<p id="date"></p><br>
+<img src="My%20Logo.png" width="300">
+</center>
+</section>
+</center>
+<br><br><br><br>
+<div id="row">
+<section id="title" style="padding: 20px">
+<h1>Title Heading</h1>
+<h3>Hello! I'm Mhotsav Gandotra</h3><br><br>
+<h4>Here's some information about me</h4><br><br>
+<ol>
+<li>Name : Mhotsav Gandotra</li>
+<li>Hobbies : Coding and Web devlopment</li>
+<li>Age : 9</li>
+<li>Class : 4th</li>
+<li>School : DPS (Delhi Public School)</li>
+</ol>
+</section>
+<section id="title2" style="padding: 20px">
+<center>
+<h1>A Picture of me</h1>
+<h3>Mhotsav Gandotra</h3><br><br>
+<img src="Me.jpg" width="450">
+</center>
+</section>
+</div>
+<section id="SlideShow">
+<center>
+<h1 style="padding: 20px;">Some people I know 🥔🥔🍠🍠🍠</h1>
+</center>
+<div id="MyCarousel" class="carousel slide">
+<div class="carousel-inner">
+<div class="item active">
+<center>
+<img src="Mommy.jpg" width="200" height="400"><br><br>
+<div class="carousel-content">
+<p>My Mother</p>
+</div>
+</center>
+</div>
+<div class="item">
+<center>
+<img src="Daddy.jpg" width="300" height="400"><br><br>
+<div class="carousel-content">
+<p>My Father</p>
+</div>
+</center>
+</div>
+<div class="item">
+<center>
+<img src="Manyata%20Didi.jpg" width="200" height="400"><br><br>
+<div class="carousel-content">
+<p>My Sister</p>
+</div>
+</center>
+</div>
+<div class="item">
+<center>
+<img src="https://obj.whitehatjr.com/2e0e41c6-a514-477a-b29d-75be584fbb41.jpeg" width="300" height="400"><br><br>
+<div class="carousel-content">
+<p>My Programming teacher</p>
+</div>
+</center>
+</div>
+</div>
+<a href="#MyCarousel" class="left carousel-control" data-slide="prev">
+<span class="glyphicon glyphicon-chevron-left"></span>    
+</a>
+<a href="#MyCarousel" class="right carousel-control" data-slide="next">
+<span class="glyphicon glyphicon-chevron-right"></span>    
+</a>
+</div>
+</section>
+</div>
+<script>
+function hello(){
+document.getElementById("date").innerHTML = new Date().toDateString();
+}    
+</script>
+</body>
+</html>
